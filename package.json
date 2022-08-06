@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "proxy": "mitmdump --set confdir=./.mitmproxy > ./.mitmproxy/mitmproxy.log",
+    "proxy": "mitmweb --scripts mitmproxy/local-development.py --no-web-open-browser",
     "dev": "run-p proxy serve"
   },
   "dependencies": {

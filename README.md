@@ -19,7 +19,7 @@ npm run dev
 
 ## Configure System for Proxy Auto-Configuration (PAC)
 
-Configure your system proxy settings for proxy auto-configuration. The address of the PAC file is: http://localhost:8081/proxy.pac
+Configure your system proxy settings for proxy auto-configuration. The address of the PAC file is: http://localhost:8082/proxy.pac
 
 ## Test
 

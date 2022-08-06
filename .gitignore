@@ -21,9 +21,3 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
-
-# MITM Proxy
-/.mitmproxy/*.cer
-/.mitmproxy/*.p12
-/.mitmproxy/*.pem
-/.mitmproxy/*.log

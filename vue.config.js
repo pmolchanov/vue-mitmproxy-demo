@@ -6,7 +6,7 @@ module.exports = defineConfig({
     // Configure Vue app to be deployed on custom sub-path (rather than root)
     publicPath: process.env.BASE_URL,
     devServer: {
-        port: 8081,
+        port: 8082,
         // Whitelist proxied domain
         allowedHosts: [process.env.HOSTNAME],
         client: {
