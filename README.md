@@ -2,6 +2,13 @@
 
 This project demonstrates using mitmproxy to serve a subdirectory (/my/sub/path/) of a website (https://example.com) from a local Vue CLI development server with hot reload. This a useful development technique when multiple semi-independent applications are hosted on a single domain that is partitioned by path. 
 
+Key Components:
+
+* **mitmproxy proxy service:** http(s)://localhost:8080
+* **mitmproxy web-based interface:** http://localhost:8081
+* **Custom Proxy PAC:** http://localhost:8082/proxy.pac
+* **Vue CLI dev server:** http://localhost:8082
+
 ## Preqrequisites
 
 * Install [mitmproxy v8.1](https://mitmproxy.org/) 
